@@ -1,0 +1,904 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 02:47:06
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: WINNT                                 |WINNT
+PHP VERSION_________: 7.4.33                                |7.4.33
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.33 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33
+DOC ROOT____________: "F:/Xampp/htdocs/Flower"
+REQUEST URL_________: "http://localhost/Flower"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+INSTALL MODES_______: CLASSIC
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "F:/Xampp/htdocs/Flower"
+URL_NEW_____________: "http://localhost/Flower"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "F:/Xampp/htdocs/Flower/20230807_yourflowerstop_[HASH]_20230807102556_archive.zip"
+ARCHIVE SIZE________: 147.48MB
+CREATED_____________: 2023-08-07 10:25:56
+WP VERSION__________: 6.2.2
+DUP VERSION_________: 4.5.10
+LICENSE_____________: Business
+DB VERSION__________: 10.4.27
+DB FILE SIZE________: 12.8MB
+DB TABLES___________: 25
+DB ROWS_____________: 2459
+URL HOME____________: http://localhost/Your%20Flower%20Stop
+URL CORE____________: http://localhost/Your%20Flower%20Stop
+URL CONTENT_________: http://localhost/Your%20Flower%20Stop/wp-content
+URL UPLOAD__________: http://localhost/Your%20Flower%20Stop/wp-content/uploads
+URL PLUGINS_________: http://localhost/Your%20Flower%20Stop/wp-content/plugins
+URL MU PLUGINS______: http://localhost/Your%20Flower%20Stop/wp-content/mu-plugins
+URL THEMES__________: http://localhost/Your%20Flower%20Stop/wp-content/themes
+PATH HOME___________: F:/Xampp/htdocs/Your Flower Stop
+PATH ABS____________: F:/Xampp/htdocs/Your Flower Stop
+PATH WPCONFIG_______: F:/Xampp/htdocs/Your Flower Stop
+PATH WPCONTENT______: F:/Xampp/htdocs/Your Flower Stop/wp-content
+PATH UPLOADS________: F:/Xampp/htdocs/Your Flower Stop/wp-content/uploads
+PATH PLUGINS________: F:/Xampp/htdocs/Your Flower Stop/wp-content/plugins
+PATH MUPLUGINS______: F:/Xampp/htdocs/Your Flower Stop/wp-content/mu-plugins
+PATH THEMES_________: F:/Xampp/htdocs/Your Flower Stop/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "localhost/Your%20Flower%20Stop/"
+
+PLUGINS
+PLUGIN [SLUG:all-in-one-wp-migration/all-in-one-wp-migration.php][ON:true ]  All-in-One WP Migration
+PLUGIN [SLUG:backup-backup/backup-backup.php                   ][ON:true ]  Backup Migration
+PLUGIN [SLUG:classic-editor/classic-editor.php                 ][ON:true ]  Classic Editor
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ]  Duplicator Pro (Gold)
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:elementor-pro/elementor-pro.php                   ][ON:true ]  Elementor Pro
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:false]  WooCommerce
+PLUGIN [SLUG:wpforms-lite/wpforms.php                          ][ON:true ]  WPForms Lite
+PLUGIN [SLUG:wp-migrate-db/wp-migrate-db.php                   ][ON:true ]  WP Migrate Lite
+PLUGIN [SLUG:wp-migrate-db-pro-compatibility.php               ][ON:false]  WP Migrate Lite Compatibility
+
+********************************************************************************
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\ctrls\ctrl.base.php:166][DELTA:   0.14052]  MESSAGE:END RENDER PAGE
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\src\Core\Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+SET VALUE install-type
+SET VALUE path_new
+SET VALUE url_new
+SET VALUE path_core_new
+SET VALUE siteurl
+SET VALUE path_cont_new
+SET VALUE url_cont_new
+SET VALUE path_upl_new
+SET VALUE url_upl_new
+SET VALUE path_plug_new
+SET VALUE url_plug_new
+SET VALUE path_muplug_new
+SET VALUE url_muplug_new
+SET VALUE subsite_id
+SET VALUE subsite_owr_mapping
+SET VALUE archive_action
+SET VALUE archive_engine
+SET VALUE archive_engine_wpskip
+SET VALUE db-engine
+SET VALUE mode_chunking
+SET VALUE users_mode
+SET VALUE mu_replace
+SET VALUE subsite_users_mode
+SET VALUE set_file_perms
+SET VALUE set_dir_perms
+SET VALUE file_perms_value
+SET VALUE dir_perms_value
+SET VALUE exe_safe_mode
+SET VALUE wp_config
+SET VALUE ht_config
+SET VALUE other_config
+SET VALUE zip_filetime
+SET VALUE remove-redundant
+SET VALUE remove-users-without-permissions
+SET VALUE blogname
+SET VALUE accept-warnings
+SET VALUE zip_throttling
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\src\Core\Bootstrap.php:75] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\ctrls\ctrl.base.php:166][DELTA:   0.12176]  MESSAGE:END RENDER PAGE
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\src\Core\Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: good
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "F:/Xampp/htdocs/Flower"
+--------------------------------------
+LOG-TIME[DELTA:   0.06172]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00034]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "Wordpress Configuration" [CLASS: DUPX_Validation_test_wp_config]
+LOG-TIME[DELTA:   0.00234]  MESSAGE:TEST "Wordpress Configuration" RESULT: passed
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Functions and Classes" [CLASS: DUPX_Validation_test_php_functionalities]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Functions and Classes" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00047]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.03575]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00058]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00228]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00144]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00102]  MESSAGE:TEST "Create New Database" RESULT: passed
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00054]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00054]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WP Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Multiple WP Installs" RESULT: skip
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00112]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.02515]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00037]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00082]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00034]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: soft warning
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: skip
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00130]  MESSAGE:TEST "Database cleanup" RESULT: passed
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\src\Core\Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\src\Core\Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+SET VALUE install-type
+SET VALUE path_new
+SET VALUE url_new
+SET VALUE path_core_new
+SET VALUE siteurl
+SET VALUE path_cont_new
+SET VALUE url_cont_new
+SET VALUE path_upl_new
+SET VALUE url_upl_new
+SET VALUE path_plug_new
+SET VALUE url_plug_new
+SET VALUE path_muplug_new
+SET VALUE url_muplug_new
+SET VALUE subsite_id
+SET VALUE subsite_owr_mapping
+SET VALUE archive_action
+SET VALUE archive_engine
+SET VALUE archive_engine_wpskip
+SET VALUE db-engine
+SET VALUE mode_chunking
+SET VALUE users_mode
+SET VALUE mu_replace
+SET VALUE subsite_users_mode
+SET VALUE set_file_perms
+SET VALUE set_dir_perms
+SET VALUE file_perms_value
+SET VALUE dir_perms_value
+SET VALUE exe_safe_mode
+SET VALUE wp_config
+SET VALUE ht_config
+SET VALUE other_config
+SET VALUE zip_filetime
+SET VALUE remove-redundant
+SET VALUE remove-users-without-permissions
+SET VALUE blogname
+SET VALUE accept-warnings
+SET VALUE zip_throttling
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\src\Core\Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "F:/Xampp/htdocs/Flower"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 02:48:00
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Your Flower Stop"
+HOME URL NEW________: "http://localhost/Flower"
+SITE URL NEW________: "http://localhost/Flower"
+CONTENT URL NEW_____: "http://localhost/Flower/wp-content"
+UPLOAD URL NEW______: "http://localhost/Flower/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/Flower/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/Flower/wp-content/mu-plugins"
+HOME PATH NEW_______: "F:/Xampp/htdocs/Flower"
+SITE PATH NEW_______: "F:/Xampp/htdocs/Flower"
+CONTENT PATH NEW____: "F:/Xampp/htdocs/Flower/wp-content"
+UPLOAD PATH NEW_____: "F:/Xampp/htdocs/Flower/wp-content/uploads"
+PLUGINS PATH NEW____: "F:/Xampp/htdocs/Flower/wp-content/plugins"
+MUPLUGINS PATH NEW__: "F:/Xampp/htdocs/Flower/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "F:/Xampp/htdocs/Flower/dup-installer"
+	FILE: "F:/Xampp/htdocs/Flower/20230807_yourflowerstop_[HASH]_20230807102556_installer-backup.php"
+	FILE: "F:/Xampp/htdocs/Flower/20230807_yourflowerstop_[HASH]_20230807102556_archive.zip"
+	FILE: "F:/Xampp/htdocs/Flower/installer (17).php"
+	FILE: "F:/Xampp/htdocs/Flower/dup-installer-bootlog__10cbf8d-07102556.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20230807_yourflowerstop_[HASH]_20230807102556_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+*** RESET CONFIG FILES END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0039 sec. - Files processed: 6,779 of 17,836
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\src\Core\Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 6779
+--------------------------------------
+PATHS MAPPING : "F:/Xampp/htdocs/Flower"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0043 sec. - Files processed: 14,364 of 17,836
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\src\Core\Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 14364
+--------------------------------------
+PATHS MAPPING : "F:/Xampp/htdocs/Flower"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 18647
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 02:48:13 - RUNTIME: 13.1817 sec. - Files processed: 17,836 of 17,836
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\src\Core\Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_YFS
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 02:48:13
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_YFS"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_YFSactionscheduler_actions"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_YFSactionscheduler_actions]
+TABLE "wp_YFSactionscheduler_claims"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_YFSactionscheduler_claims]
+TABLE "wp_YFSactionscheduler_groups"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_YFSactionscheduler_groups]
+TABLE "wp_YFSactionscheduler_logs"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_YFSactionscheduler_logs]
+TABLE "wp_YFScommentmeta"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_YFScommentmeta]
+TABLE "wp_YFScomments"__________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_YFScomments]
+TABLE "wp_YFSduplicator_pro_entities"___________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_YFSduplicator_pro_entities]
+TABLE "wp_YFSduplicator_pro_packages"___________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_YFSduplicator_pro_packages]
+TABLE "wp_YFSe_events"__________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_YFSe_events]
+TABLE "wp_YFSe_submissions"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_YFSe_submissions]
+TABLE "wp_YFSe_submissions_actions_log"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_YFSe_submissions_actions_log]
+TABLE "wp_YFSe_submissions_values"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_YFSe_submissions_values]
+TABLE "wp_YFSlinks"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_YFSlinks]
+TABLE "wp_YFSoptions"___________________________________[ROWS:     256] [EXTRACT|REPLACE] [INST NAME: wp_YFSoptions]
+TABLE "wp_YFSpostmeta"__________________________________[ROWS:    2482] [EXTRACT|REPLACE] [INST NAME: wp_YFSpostmeta]
+TABLE "wp_YFSposts"_____________________________________[ROWS:     404] [EXTRACT|REPLACE] [INST NAME: wp_YFSposts]
+TABLE "wp_YFStermmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_YFStermmeta]
+TABLE "wp_YFSterms"_____________________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_YFSterms]
+TABLE "wp_YFSterm_relationships"________________________[ROWS:      18] [EXTRACT|REPLACE] [INST NAME: wp_YFSterm_relationships]
+TABLE "wp_YFSterm_taxonomy"_____________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_YFSterm_taxonomy]
+TABLE "wp_YFSusermeta"__________________________________[ROWS:      26] [EXTRACT|REPLACE] [INST NAME: wp_YFSusermeta]
+TABLE "wp_YFSusers"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_YFSusers]
+TABLE "wp_YFSwpforms_payments"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_YFSwpforms_payments]
+TABLE "wp_YFSwpforms_payment_meta"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_YFSwpforms_payment_meta]
+TABLE "wp_YFSwpforms_tasks_meta"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_YFSwpforms_tasks_meta]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.27 -- Build Server: 10.4.27
+FILE SIZE:	dup-database__[HASH].sql (6.7MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`Mahan_Yadavi`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	81
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_yfsactionscheduler_actions"___________________[ROWS:     0]
+TABLE "wp_yfsactionscheduler_claims"____________________[ROWS:     0]
+TABLE "wp_yfsactionscheduler_groups"____________________[ROWS:     0]
+TABLE "wp_yfsactionscheduler_logs"______________________[ROWS:     0]
+TABLE "wp_yfscommentmeta"_______________________________[ROWS:     0]
+TABLE "wp_yfscomments"__________________________________[ROWS:     1]
+TABLE "wp_yfsduplicator_pro_entities"___________________[ROWS:     5]
+TABLE "wp_yfsduplicator_pro_packages"___________________[ROWS:     1]
+TABLE "wp_yfse_events"__________________________________[ROWS:     3]
+TABLE "wp_yfse_submissions"_____________________________[ROWS:     0]
+TABLE "wp_yfse_submissions_actions_log"_________________[ROWS:     0]
+TABLE "wp_yfse_submissions_values"______________________[ROWS:     0]
+TABLE "wp_yfslinks"_____________________________________[ROWS:     0]
+TABLE "wp_yfsoptions"___________________________________[ROWS:   256]
+TABLE "wp_yfspostmeta"__________________________________[ROWS:  2482]
+TABLE "wp_yfsposts"_____________________________________[ROWS:   404]
+TABLE "wp_yfsterm_relationships"________________________[ROWS:    18]
+TABLE "wp_yfsterm_taxonomy"_____________________________[ROWS:     5]
+TABLE "wp_yfstermmeta"__________________________________[ROWS:     0]
+TABLE "wp_yfsterms"_____________________________________[ROWS:     5]
+TABLE "wp_yfsusermeta"__________________________________[ROWS:    26]
+TABLE "wp_yfsusers"_____________________________________[ROWS:     1]
+TABLE "wp_yfswpforms_payment_meta"______________________[ROWS:     0]
+TABLE "wp_yfswpforms_payments"__________________________[ROWS:     0]
+TABLE "wp_yfswpforms_tasks_meta"________________________[ROWS:     0]
+
+INSERT DATA RUNTIME: 0.5993 sec.
+STEP-2 COMPLETE @ 02:48:14 - RUNTIME: 0.5994 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\src\Core\Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: F:/Xampp/htdocs/Your Flower Stop REPLACE: F:/Xampp/htdocs/Flower [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://localhost/Your%20Flower%20Stop REPLACE: http://localhost/Flower [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 02:48:14
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_YFSoptions]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_pro_ui_view_state","duplicator_pro_package_active","duplicator_pro_settings")
+DATABASE OPTIONS DELETED [ROWS:    45]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_YFSactionscheduler_actions"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_YFSactionscheduler_claims"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_YFSactionscheduler_groups"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_YFSactionscheduler_logs"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_YFScommentmeta"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_YFScomments"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"F:/Xampp/htdocs/Your Flower Stop" ================> "F:/Xampp/htdocs/Flower"
+	SEARCH[urlnd]  2:"http://localhost/Your%20Flower%20Stop" ===========> "http://localhost/Flower"
+	CHUNK ACTION: CURRENT [search_replace][wp_YFScomments][0]
+
+EVALUATE TABLE: "wp_YFSduplicator_pro_entities"___________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"F:/Xampp/htdocs/Your Flower Stop" ================> "F:/Xampp/htdocs/Flower"
+	SEARCH[urlnd]  2:"http://localhost/Your%20Flower%20Stop" ===========> "http://localhost/Flower"
+	CHUNK ACTION: CURRENT [search_replace][wp_YFSduplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_YFSduplicator_pro_packages"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_YFSe_events"__________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"F:/Xampp/htdocs/Your Flower Stop" ================> "F:/Xampp/htdocs/Flower"
+	SEARCH[urlnd]  2:"http://localhost/Your%20Flower%20Stop" ===========> "http://localhost/Flower"
+	CHUNK ACTION: CURRENT [search_replace][wp_YFSe_events][0]
+
+EVALUATE TABLE: "wp_YFSe_submissions"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_YFSe_submissions_actions_log"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_YFSe_submissions_values"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_YFSlinks"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_YFSoptions"___________________________________[ROWS:   211][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"F:/Xampp/htdocs/Your Flower Stop" ================> "F:/Xampp/htdocs/Flower"
+	SEARCH[urlnd]  2:"http://localhost/Your%20Flower%20Stop" ===========> "http://localhost/Flower"
+	CHUNK ACTION: CURRENT [search_replace][wp_YFSoptions][0]
+
+EVALUATE TABLE: "wp_YFSpostmeta"__________________________________[ROWS:  2482][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"F:/Xampp/htdocs/Your Flower Stop" ================> "F:/Xampp/htdocs/Flower"
+	SEARCH[urlnd]  2:"http://localhost/Your%20Flower%20Stop" ===========> "http://localhost/Flower"
+	CHUNK ACTION: CURRENT [search_replace][wp_YFSpostmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_YFSpostmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_YFSpostmeta][2]
+
+EVALUATE TABLE: "wp_YFSposts"_____________________________________[ROWS:   404][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"F:/Xampp/htdocs/Your Flower Stop" ================> "F:/Xampp/htdocs/Flower"
+	SEARCH[urlnd]  2:"http://localhost/Your%20Flower%20Stop" ===========> "http://localhost/Flower"
+	CHUNK ACTION: CURRENT [search_replace][wp_YFSposts][0]
+
+EVALUATE TABLE: "wp_YFStermmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_YFSterms"_____________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"F:/Xampp/htdocs/Your Flower Stop" ================> "F:/Xampp/htdocs/Flower"
+	SEARCH[urlnd]  2:"http://localhost/Your%20Flower%20Stop" ===========> "http://localhost/Flower"
+	CHUNK ACTION: CURRENT [search_replace][wp_YFSterms][0]
+
+EVALUATE TABLE: "wp_YFSterm_relationships"________________________[ROWS:    18][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_YFSterm_taxonomy"_____________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"F:/Xampp/htdocs/Your Flower Stop" ================> "F:/Xampp/htdocs/Flower"
+	SEARCH[urlnd]  2:"http://localhost/Your%20Flower%20Stop" ===========> "http://localhost/Flower"
+	CHUNK ACTION: CURRENT [search_replace][wp_YFSterm_taxonomy][0]
+
+EVALUATE TABLE: "wp_YFSusermeta"__________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"F:/Xampp/htdocs/Your Flower Stop" ================> "F:/Xampp/htdocs/Flower"
+	SEARCH[urlnd]  2:"http://localhost/Your%20Flower%20Stop" ===========> "http://localhost/Flower"
+	CHUNK ACTION: CURRENT [search_replace][wp_YFSusermeta][0]
+
+EVALUATE TABLE: "wp_YFSusers"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"F:/Xampp/htdocs/Your Flower Stop" ================> "F:/Xampp/htdocs/Flower"
+	SEARCH[urlnd]  2:"http://localhost/Your%20Flower%20Stop" ===========> "http://localhost/Flower"
+	CHUNK ACTION: CURRENT [search_replace][wp_YFSusers][0]
+
+EVALUATE TABLE: "wp_YFSwpforms_payments"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_YFSwpforms_payment_meta"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_YFSwpforms_tasks_meta"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:25 	|	 Rows:3143 	|	 Cells:20267 
+UPDATED:	Tables:5 	|	 Rows:669 	|	 Cells:930 
+ERRORS:		0 
+RUNTIME:	0.917400 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:F:/Xampp/htdocs/Flower/wp-config.php
+New .htaccess file created:F:/Xampp/htdocs/Flower/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""Flower_b2b-center""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+NO PERMALINK STRUCTURE FOUND: set htaccess without directives
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+UPDATE OPTION home ON TABLE wp_YFSoptions
+UPDATE OPTION siteurl ON TABLE wp_YFSoptions
+UPDATE OPTION duplicator_pro_exe_safe_mode ON TABLE wp_YFSoptions
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+ - REMOVED 0 storage items
+ - REMOVED 0 schedule items
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:48:15 - RUNTIME: 1.1980 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\src\Core\Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\src\Core\Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\src\Core\Bootstrap.php:75] RESET TIME
+STEP ACTION: "on-validate"
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: F:/Xampp/htdocs/Flower/index.php
+E_WARNING rmdir(F:/Xampp/htdocs/Flower\wp-content\backup-migration\backups): Directory not empty
+	FILE: F:\Xampp\htdocs\Flower\wp-content\plugins\backup-backup\includes\config.php[175]
+	--- TRACE ---
+	FUNCTION: rmdir                         FILE: F:\Xampp\htdocs\Flower\wp-content\plugins\backup-backup\includes\config.php[175]
+	FUNCTION: require_once                  FILE: F:\Xampp\htdocs\Flower\wp-content\plugins\backup-backup\includes\constants.php[29]
+	FUNCTION: require_once                  FILE: F:\Xampp\htdocs\Flower\wp-content\plugins\backup-backup\backup-backup.php[55]
+	FUNCTION: {closure}                     FILE: F:\Xampp\htdocs\Flower\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: F:\Xampp\htdocs\Flower\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: F:\Xampp\htdocs\Flower\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: F:\Xampp\htdocs\Flower\wp-settings.php[486]
+	FUNCTION: require_once                  FILE: F:\Xampp\htdocs\Flower\wp-config.php[97]
+	FUNCTION: require_once                  FILE: F:\Xampp\htdocs\Flower\wp-load.php[50]
+	FUNCTION: require_once                  FILE: F:\Xampp\htdocs\Flower\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: F:\Xampp\htdocs\Flower\index.php[17]
+	FUNCTION: require_once                  FILE: F:\Xampp\htdocs\Flower\wp-content\wp_test_script_10cbf8d-07102556.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING rmdir(F:/Xampp/htdocs/Flower\wp-content\backup-migration): Directory not empty
+	FILE: F:\Xampp\htdocs\Flower\wp-content\plugins\backup-backup\includes\config.php[185]
+	--- TRACE ---
+	FUNCTION: rmdir                         FILE: F:\Xampp\htdocs\Flower\wp-content\plugins\backup-backup\includes\config.php[185]
+	FUNCTION: require_once                  FILE: F:\Xampp\htdocs\Flower\wp-content\plugins\backup-backup\includes\constants.php[29]
+	FUNCTION: require_once                  FILE: F:\Xampp\htdocs\Flower\wp-content\plugins\backup-backup\backup-backup.php[55]
+	FUNCTION: {closure}                     FILE: F:\Xampp\htdocs\Flower\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: F:\Xampp\htdocs\Flower\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: F:\Xampp\htdocs\Flower\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: F:\Xampp\htdocs\Flower\wp-settings.php[486]
+	FUNCTION: require_once                  FILE: F:\Xampp\htdocs\Flower\wp-config.php[97]
+	FUNCTION: require_once                  FILE: F:\Xampp\htdocs\Flower\wp-load.php[50]
+	FUNCTION: require_once                  FILE: F:\Xampp\htdocs\Flower\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: F:\Xampp\htdocs\Flower\index.php[17]
+	FUNCTION: require_once                  FILE: F:\Xampp\htdocs\Flower\wp-content\wp_test_script_10cbf8d-07102556.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+
+
+====================================
+LOG-TIME[F:\Xampp\htdocs\Flower\dup-installer\ctrls\ctrl.base.php:166][DELTA:   0.09985]  MESSAGE:END RENDER PAGE

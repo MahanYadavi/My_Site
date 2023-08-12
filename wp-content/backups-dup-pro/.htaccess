@@ -1,0 +1,9 @@
+# Duplicator config, In case of file downloading problem, you can disable/enable it in Settings/Sotrag plugin settings
+
+Options -Indexes
+<IfModule mod_headers.c>
+    <FilesMatch "\.(daf)$">
+        ForceType application/octet-stream
+        Header set Content-Disposition attachment
+    </FilesMatch>
+</IfModule>
